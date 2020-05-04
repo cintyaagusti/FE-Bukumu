@@ -1,0 +1,16 @@
+flow get data :
+1. bikin state
+2. bikin function getKategori
+3. masukin functiong getkategori ke componentdimount
+4. lakukan map, dengna membuat const data
+
+flow delete : 
+1. bikin function deleteKategori
+2. bikin function showDeleteConfirm
+3. panggil function showDeleteConfirm ke button delete di tabel
+4. kasih render: (data) sesuaikan dengna const data, 
+5. beri value di onClick={() => this.showDeleteConfirm(data.idkategori)} 
+
+
+
+sementara ini yang diedit bagian halaman component dan page dulu :)

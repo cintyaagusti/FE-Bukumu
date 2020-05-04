@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.namaweb {
+  color: #fff;
+}
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 64px;
+  background: #588da8;
+}
+
+.ant-layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: auto;
+  flex: auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 0;
+  background: #a8d3da;
+}
